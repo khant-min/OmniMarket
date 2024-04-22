@@ -1,7 +1,7 @@
 Omnimarket
 
-- Imagine we are in the super market, there is many shops we can buy, in each shop, they provide diferent products, like in food shop, we can get foods, drinks etc..
+- Imagine we are in the super market, there is many shops we can buy, in each shop, they provide different products, like in food shop, we can get foods, drinks etc..
 
 - In the same way, different shops can have different products.
 
-- Users can buy 1 place per shop, like in real world, business logic is like normal e-commerce but multi e-commerce.
+- Users can buy 1 place per shop, like in real world, business logic is like normal e-commerce but have many shops.

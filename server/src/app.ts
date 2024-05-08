@@ -17,7 +17,7 @@ app.use(helmet());
 
 app.use(
   session({
-    secret: process.env.SECRET as string,
+    secret: process.env.SESSION_SECRET as string,
     resave: false,
     saveUninitialized: false,
   })

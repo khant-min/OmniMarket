@@ -1,8 +1,8 @@
 import express, { Router } from "express";
-import AuthRouter from "./auth/auth.route.ts";
+import CustomerAuthRouter from "./customer/auth/auth.route.ts";
 
 const AppRouter: Router = express.Router();
 
-AppRouter.use("/auth", AuthRouter);
+AppRouter.use("/auth/user", CustomerAuthRouter);
 
 export default AppRouter;

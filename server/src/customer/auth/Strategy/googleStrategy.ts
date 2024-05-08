@@ -14,7 +14,6 @@ passport.use(
       passReqToCallback: true,
     },
     async function (request, accessToken, refreshToken, profile, done) {
-      console.log(profile);
       const user = await prisma.user.upsert({
         where: {
           email: profile.emails[0].value,

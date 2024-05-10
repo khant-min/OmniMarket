@@ -21,6 +21,6 @@ model User {
   avatar       String?
   email        String?  @unique
   varified     Boolean  @default(false)
-  phone        String?
+  phone        String?  @unique
   refreshToken String[]
 }

@@ -1,7 +1,7 @@
 //@ts-nocheck
 import passport from "passport";
 import GoogleStrategy from "passport-google-oauth20";
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient, User } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
